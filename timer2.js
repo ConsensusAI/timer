@@ -5,7 +5,7 @@ let delay;
 process.stdout.write("Input seconds to timer or press b to beep.\n");
 stdin.on("data", (input) => {
   if (input === "\u0003") {
-    process.stdout.write("Thanks!");
+    process.stdout.write("Thanks for using me, ciao!");
     process.exit();
   }
 
